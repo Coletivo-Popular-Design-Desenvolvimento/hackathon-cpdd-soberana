@@ -15,12 +15,12 @@ Em resposta à dependência das Big Techs e ao colonialismo digital, este evento
 
 | Recurso | Descrição | Link |
 |---------|-----------|------|
-| 📝 Formulário de Inscrição | Inscreva-se individualmente ou em equipe | [Acessar]() |
-| 💬 Discord da Soberana | Encontre equipe e tire dúvidas | [Participar]() |
-| 🐙 Repositório Oficial | Envie seu projeto e documentação | [Acessar]() |
+| 📝 Formulário de Inscrição | Inscreva-se individualmente ou em equipe | [Acessar](https://forms.gle/n1rCNBMuSQD28yUC8) |
+| 💬 Discord da Soberana | Encontre equipe e tire dúvidas | [Participar](https://discord.gg/vDrDtV4KbS) |
+| 🐙 Repositório Oficial | Envie seu projeto e documentação | [Acessar](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cppd-soberana) |
 | 🎤 Palco de Abertura | Cerimônia inicial do evento | [Participar]() |
-| 📚 Projetos de Exemplo | Ideias e inspirações | [Ver projetos]() |
-| 📊 Critérios de Avaliação | Como serão julgados os projetos | [Ver critérios]() |
+| 📚 Projetos de Exemplo | Ideias e inspirações | [Ver projetos](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cppd-soberana/blob/main/Exemplos%20de%20projetos.md) |
+| 📊 Critérios de Revisão | Linhas base para os projetos | [Ver critérios](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cppd-soberana/blob/main/Crit%C3%A9rios%20de%20Revis%C3%A3o.md) |
 
 ## 🎯 Tema Central
 
@@ -49,7 +49,7 @@ Os projetos devem atender a pelo menos um dos seguintes pilares:
 - [Encontre equipe no Discord]()
 
 ### 2. **Inscreva-se**
-- Preencha o [formulário de inscrição]()
+- Preencha o [formulário de inscrição](https://forms.gle/n1rCNBMuSQD28yUC8)
 - Participe do palco de abertura (obrigatório para pelo menos um membro da equipe)
 
 ### 3. **Desenvolva seu projeto**
@@ -58,20 +58,20 @@ Os projetos devem atender a pelo menos um dos seguintes pilares:
 - Documente no arquivo `conceito.md`
 
 ### 4. **Submeta até o prazo**
-- Siga o [tutorial de submissão]()
+- Siga o [tutorial de submissão](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cppd-soberana/blob/main/Tutorial%20Github.md)
 - Adicione sua branch ao repositório
+- Suba ou crie seus arquivos
+- Crie sua pull request
 
 ## 📅 Cronograma
 
 | Data | Evento |
 |------|--------|
-| D-7 | Divulgação do material e abertura das inscrições |
-| D 09:00 | Palco de abertura |
-| D 12:00 | Encerramento das inscrições |
-| D+2 12:00 | Palco de encerramento |
-| D+9 | Apresentação dos projetos destacados |
-
-*D = Data de início do hackathon*
+| 21/11/2025 | Divulgação do material e abertura das inscrições |
+| 28/11/2025 20:00 | Palco de abertura |
+| 28/11/2025 22:00 | Encerramento das inscrições |
+| 30/11/2025 12:00 | Anuncio de encerramento |
+| 14/12/2025 | Apresentação dos projetos destacados |
 
 ## ⚖️ Critérios de Revisão
 
@@ -83,7 +83,7 @@ Os projetos devem atender a pelo menos um dos seguintes pilares:
 - 💡 Criatividade e inovação
 - 📚 Documentação
 
-[Ver critérios completos]()
+[Ver critérios completos](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cppd-soberana/blob/main/Crit%C3%A9rios%20de%20Revis%C3%A3o.md)
 
 ## 💡 Ideias de Projetos
 
@@ -99,7 +99,7 @@ Explore nossas sugestões para inspirar seu projeto:
 - Ferramentas de colaboração seguras
 - Gestão de documentos sensíveis
 
-[Ver lista completa de projetos exemplo]()
+[Ver lista completa de projetos exemplo](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cppd-soberana/blob/main/Exemplos%20de%20projetos.md)
 
 ## 🛠️ Tecnologias de Exemplo
 
