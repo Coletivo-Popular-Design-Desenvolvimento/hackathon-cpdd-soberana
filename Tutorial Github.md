@@ -87,7 +87,7 @@ Pense no GitHub como uma "linha do tempo" ou "histórico" dos seus arquivos. Ele
 
 ## ✨ Formatação Básica (Opcional)
 
-Se quiser deixar seu arquivo mais organizado, pode usar estas formatações simples:
+Se quiser deixar seu arquivo mais organizado, pode usar estas formatações simples para arquivos **Markdown** ou **".md"** (Como este que estamos agora):
 
 ```markdown
 # Título Principal
