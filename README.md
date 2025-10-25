@@ -63,6 +63,8 @@ Os projetos devem atender a pelo menos um dos seguintes pilares:
 - Suba ou crie seus arquivos
 - Crie sua pull request
 
+_Obs: Alternativamente, você também pode enviar seu projeto através do [formulário](https://docs.google.com/forms/d/e/1FAIpQLSdhYAAAu39WLI7FB1DzoDX2AgKmBogvqS-2zbTmWAloZF9UXg/viewform)._
+
 ## 📅 Cronograma
 
 | Data | Evento |
