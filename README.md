@@ -16,9 +16,10 @@ Em resposta à dependência das Big Techs e ao colonialismo digital, este evento
 | Recurso | Descrição | Link |
 |---------|-----------|------|
 | 📝 Formulário de Inscrição | Inscreva-se individualmente ou em equipe | [Acessar](https://forms.gle/n1rCNBMuSQD28yUC8) |
-| 💬 Discord da Soberana | Encontre equipe e tire dúvidas | [Participar](https://discord.gg/vDrDtV4KbS) |
+| 👥 Forme uma equipe | Poste seu projeto e encontre pessoas para participar | [Acessar](https://discord.com/channels/828778305691844609/1436003691508400241)
+| ❓ Duvidas e Suporte | Encontre respostas para duvidas comuns, ou poste sua duvida | [Acessar](https://discord.com/channels/828778305691844609/1436002915541323887)
 | 🐙 Repositório Oficial | Envie seu projeto e documentação | [Acessar](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cppd-soberana) |
-| 🎤 Palco de Abertura | Cerimônia inicial do evento | [Participar]() |
+| 🎤 Palco de Abertura | Cerimônia inicial do evento | [Participar](https://discord.com/channels/828778305691844609/828778306160820265) |
 | 📚 Projetos de Exemplo | Ideias e inspirações | [Ver projetos](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cppd-soberana/blob/main/Exemplos%20de%20projetos.md) |
 | 📊 Critérios de Revisão | Linhas base para os projetos | [Ver critérios](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cppd-soberana/blob/main/Crit%C3%A9rios%20de%20Revis%C3%A3o.md) |
 
@@ -120,7 +121,7 @@ Explore nossas sugestões para inspirar seu projeto:
 
 - **Dúvidas técnicas**: Canal #dúvidas no Discord
 - **Formação de equipes**: Fórum dedicado no Discord  
-- **Suporte CPDD/Soberana**: Equipes disponíveis durante todo evento
+- **Suporte CPDD/Soberana**: Equipes disponíveis durante todo evento, acesse o canais de duvidas [por aqui](https://discord.com/channels/828778305691844609/1436002915541323887)
 
 ## 🏆 Reconhecimento
 
