@@ -22,10 +22,10 @@ Diferente de um hackathon convencional, nossa iniciativa visa todes que tenham a
 Não! Conceitos bem elaborados e fundamentados são tão valiosos quanto implementações técnicas. Designers, pesquisadores, organizadores e pessoas com diferentes habilidades são essenciais para projetos completos.
 
 ## Como participar?
-1. Preencha o [formulário de inscrição]()
+1. Preencha o [formulário de inscrição](https://cpdd.com.br/hackathon/)
 2. Participe individualmente ou em equipes de no máximo 4 pessoas
 3. Ao menos um participante de cada equipe deve participar do palco de abertura
-4. Procure por uma equipe no fórum do [Discord da Soberana]()
+4. Procure por uma equipe no fórum do [Discord da Soberana](https://discord.com/channels/828778305691844609/1436003691508400241)
 
 ## Quais tipos de projeto são aceitos?
 Desde estudos técnicos até provas de conceito e MVPs (Produtos Mínimos Viáveis). Exemplos:
@@ -36,7 +36,7 @@ Desde estudos técnicos até provas de conceito e MVPs (Produtos Mínimos Viáve
 - Estudos de segurança digital
 
 ## Onde encontrar inspiração para projetos?
-Consulte a lista de [projetos de exemplo]() no repositório, incluindo:
+Consulte a lista de [projetos de exemplo](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cpdd-soberana/blob/main/Exemplos%20de%20projetos.md) no repositório, incluindo:
 - Redes IPFS comunitárias
 - Alternativas ao Google Drive
 - Sistemas de comunicação segura
@@ -53,16 +53,16 @@ Consulte a lista de [projetos de exemplo]() no repositório, incluindo:
 - Documentação e apresentação
 
 ## Onde participar?
-- **Palco de abertura:** [LINK DO CANAL]()
-- **Encontrar equipe:** [LINK DO FÓRUM]()
-- **Enviar projeto:** [LINK DO REPOSITÓRIO]()
-- **Formulário de inscrição:** [LINK DO FORMULÁRIO]()
+- **Palco de abertura:** [LINK DO CANAL](https://discord.com/channels/828778305691844609/828778306160820265)
+- **Encontrar equipe:** [LINK DO FÓRUM](https://discord.com/channels/828778305691844609/1436003691508400241)
+- **Enviar projeto:** [LINK DO REPOSITÓRIO](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cpdd-soberana)
+- **Formulário de inscrição:** [LINK DO FORMULÁRIO](https://cpdd.com.br/hackathon/)
 
 ## Como submeter meu projeto?
 1. Crie uma branch no repositório oficial do hackathon
 2. Adicione na raiz do projeto um arquivo `conceito.md`
 3. Documente seu projeto, tecnologias utilizadas e descobertas
-4. Siga o [tutorial de como clonar e criar branches]()
+4. Siga o [tutorial de como clonar e criar branches](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cpdd-soberana/blob/main/Tutorial%20Github.md)
 
 ## Há algum suporte disponível durante o evento?
 Sim! Use o tópico de "Dúvidas" no servidor da Soberana. Equipes do CPDD e Soberana estarão disponíveis para ajudar.
