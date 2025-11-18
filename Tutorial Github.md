@@ -58,7 +58,7 @@ Basicamente é um armazenador de arquivos como o Google Drive, porém você pode
 
 ---
 
-## 📤 Passo 5: Criar Pull Request (Entregar seu Projeto)
+## 📤 Passo 4: Criar Pull Request (Entregar seu Projeto)
 
 <img width="1860" height="908" alt="image" src="https://github.com/user-attachments/assets/d73706f4-dd9e-4b9c-8c37-2c24e25c39b5" />
 
