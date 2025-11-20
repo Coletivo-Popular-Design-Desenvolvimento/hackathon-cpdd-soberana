@@ -5,6 +5,8 @@
 > *"Se quem cria conhecimento não decide seu uso, a tecnologia vira arma das grandes empresas, não da maioria."*  
 > — Manifesto do CPDD
 
+
+
 ## 📋 Sobre o Hackathon
 
 O CPDD (Coletivo Popular de Design e Desenvolvimento) e a Soberana convidam para o primeiro hackathon popular focado em **soberania digital, segurança de dados e autonomia tecnológica**. 
