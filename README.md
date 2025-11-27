@@ -18,7 +18,7 @@ Em resposta à dependência das Big Techs e ao colonialismo digital, este evento
 | 📝 Formulário de Inscrição | Inscreva-se individualmente ou em equipe | [Acessar](https://forms.gle/n1rCNBMuSQD28yUC8) |
 | 👥 Forme uma equipe | Poste seu projeto e encontre pessoas para participar | [Acessar](https://discord.com/channels/828778305691844609/1436003691508400241)
 | ❓ Duvidas e Suporte | Encontre respostas para duvidas comuns, ou poste sua duvida | [Acessar](https://discord.com/channels/828778305691844609/1436002915541323887)
-| 📜 Regras de Participação | Para garantir um bom evento | [Acessar](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cpdd-soberana/blob/main/Regras%20de%20Participa%C3%A7%C3%A3o)
+| 📜 Regras de Participação | Para garantir um bom evento | [Acessar](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cpdd-soberana/blob/main/Regras%20de%20Participa%C3%A7%C3%A3o.md)
 | 🐙 Repositório Oficial | Envie seu projeto e documentação | [Acessar](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cppd-soberana) |
 | 🎤 Palco de Abertura | Cerimônia inicial do evento | [Participar](https://discord.com/channels/828778305691844609/828778306160820265) |
 | 📚 Projetos de Exemplo | Ideias e inspirações | [Ver projetos](https://github.com/Coletivo-Popular-Design-Desenvolvimento/hackathon-cppd-soberana/blob/main/Exemplos%20de%20projetos.md) |
