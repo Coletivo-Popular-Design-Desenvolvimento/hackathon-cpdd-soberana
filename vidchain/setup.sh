@@ -132,7 +132,6 @@ echo -e "${GREEN}✅ Setup concluído com sucesso!${NC}"
 echo ""
 echo "Próximos passos:"
 echo "  • Para rodar tudo: ./start.sh"
-echo "  • Para rodar sem IPFS: ./start-minimal.sh"
 echo "  • Para verificar: ./check.sh"
 echo ""
 
