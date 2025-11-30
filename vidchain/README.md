@@ -12,8 +12,6 @@ vidchain/
 │   ├── backend/             # Spring Boot (Java)
 │   ├── frontend/            # Next.js/React
 │   ├── contracts/           # Hardhat + Solidity
-│   └── helper-node/         # Nó cooperador (planejado)
-└── documentação/            # Documentação adicional
 ```
 
 ## Pré-requisitos
@@ -45,7 +43,6 @@ Para facilitar a avaliação, criei scripts shell que automatizam tudo:
 **Scripts disponíveis:**
 - `setup.sh` - Instala todas as dependências (backend, frontend, contracts)
 - `start.sh` - Inicia tudo: IPFS (Docker), Backend e Frontend
-- `start-minimal.sh` - Inicia apenas Backend e Frontend (sem IPFS, usa modo mock)
 - `stop.sh` - Para todos os serviços
 - `check.sh` - Verifica status de todos os serviços
 
