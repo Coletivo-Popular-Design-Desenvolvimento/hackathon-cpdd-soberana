@@ -1,0 +1,19 @@
+services:
+  ipfs:
+    image: ipfs/kubo:latest
+    container_name: vidchain-ipfs
+    ports:
+      - "4001:4001"   # Swarm port
+      - "5001:5001"   # API port
+      - "9090:8080"   # Gateway port (8080 dentro do container, 9090 no host)
+    volumes:
+      - ipfs-data:/data/ipfs
+      - ipfs-staging:/export
+    environment:
+      - IPFS_PROFILE=server
+    restart: unless-stopped
+
+volumes:
+  ipfs-data:
+  ipfs-staging:
+
