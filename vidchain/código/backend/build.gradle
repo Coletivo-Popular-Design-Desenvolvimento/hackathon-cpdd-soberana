@@ -1,0 +1,108 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.5'
+    id 'io.spring.dependency-management' version '1.1.5'
+}
+
+group = 'org.vidchain'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '17'
+    targetCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+    gradlePluginPortal()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux' // Para WebClient (HTTP client reativo)
+    
+    // Web3j para integração com blockchain
+    implementation 'org.web3j:core:4.9.8'
+    // Web3j codegen para gerar wrappers (runtime para tarefa)
+    implementation 'org.web3j:codegen:4.9.8'
+    
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+// Workaround: desabilitar bootJar devido a incompatibilidade com Gradle 9.x
+// Para rodar a aplicação, use: ./gradlew bootRun
+tasks.named('bootJar') {
+    enabled = false
+}
+
+tasks.named('jar') {
+    enabled = true
+    archiveClassifier = 'plain'
+}
+
+// Tarefa para extrair ABI do JSON do Hardhat
+task extractABI {
+    group = 'web3j'
+    description = 'Extract ABI from Hardhat artifact JSON'
+    
+    def hardhatJson = file("${projectDir}/../contracts/artifacts/contracts/ContentRegistry.sol/ContentRegistry.json")
+    def abiFile = file("${buildDir}/ContentRegistry.abi.json")
+    
+    inputs.file(hardhatJson)
+    outputs.file(abiFile)
+    
+    doLast {
+        if (!hardhatJson.exists()) {
+            throw new GradleException("Hardhat artifact not found: ${hardhatJson}")
+        }
+        
+        // Extrair ABI do JSON usando Groovy
+        def json = new groovy.json.JsonSlurper().parse(hardhatJson)
+        def abi = json.abi
+        
+        abiFile.parentFile.mkdirs()
+        abiFile.text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(abi))
+        
+        println "ABI extraído para: ${abiFile.absolutePath}"
+    }
+}
+
+// Tarefa para gerar wrapper Java do contrato usando web3j-codegen
+task generateContractWrappers(type: JavaExec) {
+    group = 'web3j'
+    description = 'Generate Java wrapper from contract ABI'
+    dependsOn extractABI
+    
+    classpath = configurations.runtimeClasspath
+    mainClass = 'org.web3j.codegen.SolidityFunctionWrapperGenerator'
+    
+    def abiFile = file("${buildDir}/ContentRegistry.abi.json")
+    def outputDir = file("${projectDir}/src/main/java")
+    def packageName = "org.vidchain.backend.contracts"
+    def contractName = "ContentRegistry"
+    
+    doFirst {
+        if (!abiFile.exists()) {
+            throw new GradleException("ABI file not found: ${abiFile}")
+        }
+        outputDir.mkdirs()
+        println "Gerando wrapper do contrato..."
+        println "ABI: ${abiFile.absolutePath}"
+        println "Output: ${outputDir.absolutePath}"
+        println "Package: ${packageName}"
+    }
+    
+    args = [
+        'generate',
+        '--javaTypes',
+        '--abiFile', abiFile.absolutePath,
+        '--outputDir', outputDir.absolutePath,
+        '--package', packageName,
+        '--contractName', contractName
+    ]
+}
+
