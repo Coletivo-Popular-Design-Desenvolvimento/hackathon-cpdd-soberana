@@ -1,0 +1,7 @@
+**/__pycache__
+**/.pytest_cache
+**/.venv
+**/node_modules
+**/.git
+**/.DS_Store
+**/*.log
