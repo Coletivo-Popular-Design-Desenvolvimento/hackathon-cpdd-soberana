@@ -25,7 +25,9 @@ def criar_luta(luta: LutaCreateSchema, db: Session = Depends(get_db)):
             localizacao=luta.localizacao,
             tipo=luta.tipo,
             necessidades=luta.necessidades,
-            contato=luta.contato
+            contato=luta.contato,
+            latitude=luta.latitude,
+            longitude=luta.longitude
         )
         print("✅ Objeto Luta criado")  # DEBUG
         # Adiciona ao banco

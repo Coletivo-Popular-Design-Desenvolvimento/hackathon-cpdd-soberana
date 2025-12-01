@@ -8,6 +8,8 @@ class LutaCreateSchema(BaseModel):
     tipo: str
     necessidades: str = ""
     contato: str = ""
+    latitude: float | None = None
+    longitude: float | None = None
 
 class LutaResponseSchema(BaseModel):
     id: int
@@ -17,6 +19,8 @@ class LutaResponseSchema(BaseModel):
     tipo: str
     necessidades: str
     contato: str
+    latitude: float | None = None
+    longitude: float | None = None
 
     class Config:
         from_attributes = True
